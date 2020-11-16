@@ -1,0 +1,35 @@
+{
+  "name": "iems-201-final",
+  "version": "1.0.0",
+  "description": "A program to collect data on CTA train departures for the final project for IEMS-201. ",
+  "main": "out/index.js",
+  "scripts": {
+    "start": "npx tsc && node out/index.js",
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scolton99/imes-201-final.git"
+  },
+  "author": "Spencer Colton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scolton99/imes-201-final/issues"
+  },
+  "homepage": "https://github.com/scolton99/imes-201-final#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moment-timezone": "^0.5.32",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.0.4",
+    "@types/mysql": "^2.15.15",
+    "@types/node": "^14.14.7",
+    "@types/node-fetch": "^2.5.7",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}

@@ -4,7 +4,7 @@ import TrainEntry from "./TrainEntry";
 import APIRequest, {APIResponse} from "./APIRequest";
 
 class CTATracker {
-    static readonly INTERVAL: number = 30 * 1000;
+    static readonly INTERVAL: number = 3 * 1000;
     static readonly CTA_STATION: string = process.env.CTA_STATION;
     known_trains: Array<TrainEntry> = [];
 
